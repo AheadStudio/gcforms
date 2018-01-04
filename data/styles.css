@@ -1,0 +1,41 @@
+form.gcform.popup {
+	display: none;
+}
+form.gcform {
+	box-sizing: border-box;
+	padding: 20px 25px;
+	
+	border: 2px solid #000;
+	
+	font-family: "Verdana";
+	font-size: 16px;
+	line-height: 1.4;
+	}
+	.gcform-title {
+		margin-bottom: 20px;
+		
+		font-size: 20px;
+	}
+	.gcform-item-holder {
+		position: relative;
+		margin-bottom: 15px;
+	}
+	.gcform-item-label {
+		position: absolute;
+		left: 15px;
+		top: 13px;
+		
+		font-size: 12px;
+		line-height: 1;
+		cursor: text;
+		}
+		.gcform-item-holder.entered .gcform-item-label {
+			top: 2px;
+		}
+		
+	.gcform-item {
+		box-sizing: border-box;
+		display: block;
+		width: 100%;
+		padding: 10px 15px;
+	}
